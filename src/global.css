@@ -15,13 +15,14 @@ table {
 }
 
 table th {
-    background-color: #4AB8C4;
-    color: white;
+    background-color: #D9F2F5; /* Fundo azul bem clarinho */
+    color: #1C6773; /* Cor de texto mais escura para contraste */
     font-family: 'Georgia', serif;
-    font-size: 1.2rem;
-    padding: 12px;
+    font-size: 1.5rem;
+    padding: 16px;
     text-align: center;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 table td {
@@ -30,7 +31,7 @@ table td {
     color: #1C6773;
     font-size: 1rem;
     text-align: center;
-    background-color: #D9F2F5;
+    background-color: #F0F8F8;
     border-top: 1px solid #4AB8C4;
 }
 
@@ -62,4 +63,5 @@ tr:first-child td {
     background-color: #F0F8F8;
     color: #2E4057;
 }
+
 
