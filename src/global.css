@@ -1,54 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Georgia', serif;
-    color: #2E4057;
-}
-
-:root {
-    --colorBackground: rgba(106, 176, 219, 0.9);
-    --colorAccent: #4AB8C4;
-    --colorText: #2E4057;
-    --colorBorder: rgba(106, 176, 219, 0.5);
-}
-
-body {
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
     background-color: #F0F8F8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+    border: 1px solid #4AB8C4;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header {
-    background-color: var(--colorBackground);
-    padding: 40px 60px;
-    border: 1px solid var(--colorBorder);
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+table th {
+    background-color: #4AB8C4;
+    color: white;
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    padding: 12px;
     text-align: center;
-    transition: background-color 300ms, box-shadow 300ms;
+    letter-spacing: 1px;
 }
 
-header:hover {
-    background-color: var(--colorAccent);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+table td {
+    padding: 10px;
+    font-family: 'Georgia', serif;
+    color: #1C6773;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #D9F2F5;
+    border-top: 1px solid #4AB8C4;
 }
 
-header h1 {
-    font-size: 2.4rem;
-    color: #fff;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+tr:first-child td {
+    border-top: none;
 }
 
-header p {
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.6;
-    max-width: 600px;
+.table-container {
+    width: 80%;
     margin: 0 auto;
 }
+
